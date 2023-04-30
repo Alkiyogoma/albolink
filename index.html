@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Tailwind CSS Template</title>
+    <meta name="title" content="Startup Tailwind | Startup Web Template for Tailwind CSS" />
+    <meta name="description"
+        content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://startup-tailwind.preview.uideck.com/" />
+    <meta property="og:title" content="Startup Tailwind | SaaS Web Template for Tailwind CSS" />
+    <meta property="og:description"
+        content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites." />
+    <meta property="og:image" content="#" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://saas-tailwind.preview.uideck.com/" />
+    <meta property="twitter:title" content="Startup Tailwind | SaaS Web Template for Tailwind CSS" />
+    <meta property="twitter:description"
+        content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites." />
+    <meta property="twitter:image" content="#" />
+    <link rel="icon" href="favicon.ico">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="dark:bg-black">
+
+    <header class="header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center">
+        <div class="container">
+            <div class="flex mx-[-16px] items-center justify-between relative">
+                <div class="px-4 w-60 max-w-full">
+                    <a href="index.html" class="w-full block py-8 header-logo">
+                        <img src="images/logo-2.svg" alt="logo" class="w-full dark:hidden" />
+                        <img src="images/logo.svg" alt="logo" class="w-full hidden dark:block" />
+                    </a>
+                </div>
+                <div class="flex px-4 justify-between items-center w-full">
+                    <div>
+                        <button id="navbarToggler" aria-label="Mobile Menu"
+                            class="block absolute right-4 top-1/2 translate-y-[-50%] lg:hidden focus:ring-2 ring-primary px-3 py-[6px] rounded-lg">
+                            <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark dark:bg-white"></span>
+                            <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark dark:bg-white"></span>
+                            <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark dark:bg-white"></span>
+                        </button>
+                        <nav id="navbarCollapse"
+                            class="absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-white dark:bg-dark lg:dark:bg-transparent lg:bg-transparent shadow-lg rounded-lg max-w-[250px] w-full lg:max-w-full lg:w-full right-4 top-full hidden lg:block lg:static lg:shadow-none">
+                            <ul class="blcok lg:flex">
+                                <li class="relative group">
+                                    <a href="#home"
+                                        class="menu-scroll text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="relative group">
+                                    <a href="#about"
+                                        class="menu-scroll text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="relative group">
+                                    <a href="#pricing"
+                                        class="menu-scroll text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="relative group">
+                                    <a href="#contact"
+                                        class="menu-scroll text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12">
+                                        Projects
+                                    </a>
+                                </li>
+                                
+                                <li class="relative group">
+                                    <a href="#contact"
+                                        class="menu-scroll text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12">
+                                        Our Clients
+                                    </a>
+                                </li>
+                            <!--<li class="relative group submenu-item">
+                                    <a href="javascript:void(0)"
+                                        class="text-base text-dark dark:text-white group-hover:opacity-70 py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:translate-y-[-50%] after:mt-[-2px]">
+                                        Pages
+                                    </a>
+                                    <div
+                                        class="submenu hidden relative lg:absolute w-[250px] top-full lg:top-[110%] left-0 rounded-md lg:shadow-lg p-4 lg:block lg:opacity-0 lg:invisible group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full bg-white dark:bg-dark transition-[top] duration-300">
+                                        <a href="about.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            About Page </a>
+                                        <a href="contact.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Contact Page </a>
+                                        <a href="blog-grids.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Blog Grid Page </a>
+                                        <a href="blog-sidebar.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Blog Sidebar Page </a>
+                                        <a href="blog-details.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Blog Details Page </a>
+                                        <a href="signin.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Sign In Page </a>
+                                        <a href="signup.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            Sign Up Page </a>
+                                        <a href="404.html"
+                                            class="block text-sm rounded py-[10px] px-4 text-dark dark:text-white hover:opacity-70">
+                                            404 Page </a>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex justify-end items-center pr-16 lg:pr-0">
+                        <a href="signup.html"
+                            class="hidden md:block text-base font-bold text-white bg-primary py-3 px-8 md:px-9 lg:px-6 xl:px-9 hover:shadow-signUp hover:bg-opacity-90 rounded-md transition ease-in-up duration-300">
+                            Contact Us
+                        </a>
+                        <div>
+                            <label for="darkToggler"
+                                class="cursor-pointer w-9 h-9 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-gray-2 dark:bg-dark-bg text-black dark:text-white">
+                                <input type="checkbox" name="darkToggler" id="darkToggler" class="sr-only"
+                                    aria-label="darkToggler" />
+                                <!-- <svg viewBox="0 0 23 23" class="stroke-current dark:hidden w-5 h-5 md:w-6 md:h-6"
+                                    fill="none">
+                                    <path
+                                        d="M9.55078 1.5C5.80078 1.5 1.30078 5.25 1.30078 11.25C1.30078 17.25 5.80078 21.75 11.8008 21.75C17.8008 21.75 21.5508 17.25 21.5508 13.5C13.3008 18.75 4.30078 9.75 9.55078 1.5Z"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg> -->
+                                <!-- <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="hidden dark:block w-5 h-5 md:w-6 md:h-6">
+                                    <mask id="path-1-inside-1_977:1934" fill="white">
+                                        <path
+                                            d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z" />
+                                    </mask>
+                                    <path
+                                        d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z"
+                                        fill="black" stroke="white" stroke-width="2"
+                                        mask="url(#path-1-inside-1_977:1934)" />
+                                </svg> -->
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="home" class="pt-[120px]">
+        <div class="container">
+            <div class="pb-[100px] border-b border-white border-opacity-[.15]">
+                <div class="flex flex-wrap items-center mx-[-16px]">
+                    <div class="w-full lg:w-1/2 px-4">
+                        <div class="mb-12 lg:mb-0 max-w-[570px] wow fadeInUp" data-wow-delay=".15s">
+                            <h2
+                                class="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-[45px] lg:text-4xl xl:text-[45px] leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight mb-6">
+                                We're here for you.
+                            </h2>
+                            <p
+                                class="font-medium text-body-color text-base sm:text-lg leading-relaxed sm:leading-relaxed mb-11">
+                                Our team is always keeping up-to-date with the latest technologies to provide our
+                                clients with innovative solutions that help them stay ahead of the competition.
+                            </p>
+                            <div class="flex flex-wrap mx-[-12px]">
+                                <div class="w-full sm:w-1/2 lg:w-full xl:w-1/2 px-3">
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        Premium quality
+                                    </p>
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        No code required
+                                    </p>
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        Use for lifetime
+                                    </p>
+                                </div>
+                                <div class="w-full sm:w-1/2 lg:w-full xl:w-1/2 px-3">
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        Regular updates
+                                    </p>
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        Rich documentation
+                                    </p>
+                                    <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                        <span
+                                            class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                                <path
+                                                    d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                            </svg>
+                                        </span>
+                                        Developer friendly
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 px-4">
+                        <div class="text-center lg:text-right wow fadeInUp" data-wow-delay=".2s">
+                            <img src="images/about-image.svg" alt="about-image" class="max-w-full mx-auto lg:mr-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="bg-primary bg-opacity-[3%] pt-[120px] pb-[50px]">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full px-4">
+                    <div class="mx-auto max-w-[570px] text-center mb-[100px] wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-[45px] mb-4">
+                            Our Services
+                        </h2>
+                        <p class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed">
+                            We're here to help you build the best products possible, while also keeping them safe and
+                            secure. We're committed to making sure that every client is treated with the utmost care, no
+                            matter their size or budget.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".15s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                <svg width="40" height="41" viewBox="0 0 40 41" class="fill-current">
+                                    <path opacity="0.5"
+                                        d="M37.7778 40.2223H24C22.8954 40.2223 22 39.3268 22 38.2223V20.0001C22 18.8955 22.8954 18.0001 24 18.0001H37.7778C38.8823 18.0001 39.7778 18.8955 39.7778 20.0001V38.2223C39.7778 39.3268 38.8823 40.2223 37.7778 40.2223Z" />
+                                    <path
+                                        d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z" />
+                                </svg>
+                            </span>
+                            <span class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                                Website Design
+                            </span>
+                        </p>
+                       
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            We've been working hard to create a platform that can accommodate your needs, so you can
+                            focus on what's important: building your business. And we know you'll be thrilled with our
+                            service and support.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".1s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] flex items-center justify-center rounded-md bg-opacity-10 text-primary mr-4">
+                                <svg width="40" height="42" viewBox="0 0 40 42" class="fill-current">
+                                    <path opacity="0.5" d="M31.8943 25.3303C34.1233 25.3303 36.1497 26.1409 37.5682 27.762L39.1464 26.1839C39.4614 25.8689 39.9999 26.092 39.9999 26.5374V32.936C39.9999 33.2121 39.7761 33.436 39.4999 33.436H33.1014C32.6559 33.436 32.4328 32.8974 32.7478 32.5825L35.5418 29.7885C34.5286 28.9779 33.3128 28.37 31.8943 28.37C29.0573 28.37 26.8282 30.599 26.8282 33.436C26.8282 36.273 29.0573 38.5021 31.8943 38.5021C33.3549 38.5021 34.6511 37.844 35.6345 36.8244C35.8406 36.6107 36.1187 36.4756 36.4155 36.4756H38.6535C39.0072 36.4756 39.2477 36.833 39.0881 37.1487C37.7427 39.8107 35.0781 41.5417 31.8943 41.5417C27.4361 41.5417 23.7886 37.8941 23.7886 33.436C23.7886 28.9779 27.4361 25.3303 31.8943 25.3303Z" />
+                                    <path d="M18.7226 33.436C18.7226 31.3572 19.2513 29.4548 19.9799 27.7285C20.0541 27.5529 19.9264 27.3567 19.7358 27.3567C15.8856 27.3567 12.6433 24.1144 12.6433 20.2642C12.6433 16.414 15.8856 13.1717 19.7358 13.1717C23.586 13.1717 26.8283 16.414 26.8283 20.2642C26.8283 20.5105 27.3897 21.0054 27.6246 20.9313C28.9274 20.5206 30.2827 20.2642 31.8943 20.2642C32.775 20.2642 33.6557 20.4173 34.5364 20.5905C34.7422 20.6309 34.9339 20.4739 34.9339 20.2642C34.9339 19.8699 34.9339 19.3904 34.8787 18.9362C34.827 18.5117 34.9599 18.0636 35.3001 17.8045L38.9868 14.9955C39.3921 14.5902 39.3921 14.1849 39.1894 13.7797L35.1857 6.77316C35.153 6.71599 35.1272 6.65499 35.1021 6.59411C34.9143 6.13895 34.5848 6.08618 34.1135 6.08007C33.9863 6.07841 33.86 6.10354 33.7419 6.15079L29.3957 7.88927C29.0613 8.02302 28.6829 7.96367 28.3887 7.75599C27.6155 7.21023 26.7521 6.75466 25.8752 6.31262C25.5838 6.16573 25.3813 5.88702 25.3335 5.56423L24.6729 1.10574C24.6265 0.792572 24.6613 0.389935 24.3993 0.212245C24.2235 0.0930361 23.9828 0 23.7886 0H15.6829C15.3021 0 14.7424 0.35783 14.6762 0.73726C14.6678 0.785579 14.6661 0.834927 14.6589 0.883445L13.9492 5.67408C13.894 6.04692 13.6313 6.35205 13.2873 6.50604C12.4439 6.88359 11.673 7.42345 10.8193 7.89265C10.5647 8.03264 10.26 8.04143 9.99178 7.92966L5.73545 6.15619C5.61358 6.10541 5.48273 6.07832 5.35072 6.08016C4.8506 6.08715 4.49147 6.1485 4.13234 6.68719L0.0794975 13.7797C-0.123145 14.1849 0.0794976 14.5902 0.484782 14.9955L4.34631 17.9376C4.59456 18.1268 4.74261 18.4216 4.7079 18.7317C4.65068 19.243 4.53762 19.8101 4.53762 20.2642C4.53762 20.6648 4.53762 21.1534 4.59561 21.614C4.64767 22.0276 4.52563 22.4644 4.20164 22.7267L0.484782 25.7355C0.0794976 26.1408 0.0794978 26.5461 0.28214 26.9514L4.33498 34.0439C4.5154 34.4047 4.85644 34.4443 5.35811 34.4486C5.48532 34.4497 5.61152 34.4249 5.72964 34.3776L10.0758 32.6392C10.4102 32.5054 10.7887 32.5648 11.0829 32.7724C11.8561 33.3182 12.7195 33.7738 13.5964 34.2158C13.8878 34.3627 14.0903 34.6414 14.1381 34.9642L14.8616 39.8476C14.8688 39.8961 14.871 39.9453 14.8768 39.994C14.9222 40.3734 15.3145 40.7311 15.8856 40.7311H19.13C19.9191 40.7311 20.4065 39.8523 20.0627 39.1421C19.1998 37.3593 18.7226 35.4573 18.7226 33.436Z" />
+                                </svg> 
+                                  
+                            </span>
+                        <span class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                            Custom software development
+                        </span>
+                        </p>
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            We work closely with our clients to understand their business requirements and provide
+                            customized solutions that meet their specific needs. Our team ensures that we provide
+                            excellent customer service to our clients at all times.                        </p>
+                    </div>
+                </div>
+               
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".25s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                <svg width="40" height="40" viewBox="0 0 40 40" class="fill-current">
+                                <path opacity="0.5"
+                                    d="M20 30C22.75 30 25 32.25 25 35C25 37.75 22.75 40 20 40C17.25 40 15 37.75 15 35C15 32.25 17.25 30 20 30ZM35 30C37.75 30 40 32.25 40 35C40 37.75 37.75 40 35 40C32.25 40 30 37.75 30 35C30 32.25 32.25 30 35 30ZM35 15C37.75 15 40 17.25 40 20C40 22.75 37.75 25 35 25C32.25 25 30 22.75 30 20C30 17.25 32.25 15 35 15Z" />
+                                <path
+                                    d="M20 15C22.75 15 25 17.25 25 20C25 22.75 22.75 25 20 25C17.25 25 15 22.75 15 20C15 17.25 17.25 15 20 15ZM20 0C22.75 0 25 2.25 25 5C25 7.75 22.75 10 20 10C17.25 10 15 7.75 15 5C15 2.25 17.25 0 20 0ZM5 30C7.75 30 10 32.25 10 35C10 37.75 7.75 40 5 40C2.25 40 0 37.75 0 35C0 32.25 2.25 30 5 30ZM5 15C7.75 15 10 17.25 10 20C10 22.75 7.75 25 5 25C2.25 25 0 22.75 0 20C0 17.25 2.25 15 5 15ZM5 0C7.75 0 10 2.25 10 5C10 7.75 7.75 10 5 10C2.25 10 0 7.75 0 5C0 2.25 2.25 0 5 0ZM35 0C37.75 0 40 2.25 40 5C40 7.75 37.75 10 35 10C32.25 10 30 7.75 30 5C30 2.25 32.25 0 35 0Z" />
+                            </svg>
+                            </span>
+                            <span
+                            class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                            System Integrations</span>
+                        </p>
+                        
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            At Albolink Solutions, we pride ourselves on our support. With our account management and
+                            technical services, you'll know exactly what to expect from us.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".1s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                <svg width="40" height="42" viewBox="0 0 40 42" class="fill-current">
+                                    <path opacity="0.5" d="M31.8943 25.3303C34.1233 25.3303 36.1497 26.1409 37.5682 27.762L39.1464 26.1839C39.4614 25.8689 39.9999 26.092 39.9999 26.5374V32.936C39.9999 33.2121 39.7761 33.436 39.4999 33.436H33.1014C32.6559 33.436 32.4328 32.8974 32.7478 32.5825L35.5418 29.7885C34.5286 28.9779 33.3128 28.37 31.8943 28.37C29.0573 28.37 26.8282 30.599 26.8282 33.436C26.8282 36.273 29.0573 38.5021 31.8943 38.5021C33.3549 38.5021 34.6511 37.844 35.6345 36.8244C35.8406 36.6107 36.1187 36.4756 36.4155 36.4756H38.6535C39.0072 36.4756 39.2477 36.833 39.0881 37.1487C37.7427 39.8107 35.0781 41.5417 31.8943 41.5417C27.4361 41.5417 23.7886 37.8941 23.7886 33.436C23.7886 28.9779 27.4361 25.3303 31.8943 25.3303Z" />
+                                    <path d="M18.7226 33.436C18.7226 31.3572 19.2513 29.4548 19.9799 27.7285C20.0541 27.5529 19.9264 27.3567 19.7358 27.3567C15.8856 27.3567 12.6433 24.1144 12.6433 20.2642C12.6433 16.414 15.8856 13.1717 19.7358 13.1717C23.586 13.1717 26.8283 16.414 26.8283 20.2642C26.8283 20.5105 27.3897 21.0054 27.6246 20.9313C28.9274 20.5206 30.2827 20.2642 31.8943 20.2642C32.775 20.2642 33.6557 20.4173 34.5364 20.5905C34.7422 20.6309 34.9339 20.4739 34.9339 20.2642C34.9339 19.8699 34.9339 19.3904 34.8787 18.9362C34.827 18.5117 34.9599 18.0636 35.3001 17.8045L38.9868 14.9955C39.3921 14.5902 39.3921 14.1849 39.1894 13.7797L35.1857 6.77316C35.153 6.71599 35.1272 6.65499 35.1021 6.59411C34.9143 6.13895 34.5848 6.08618 34.1135 6.08007C33.9863 6.07841 33.86 6.10354 33.7419 6.15079L29.3957 7.88927C29.0613 8.02302 28.6829 7.96367 28.3887 7.75599C27.6155 7.21023 26.7521 6.75466 25.8752 6.31262C25.5838 6.16573 25.3813 5.88702 25.3335 5.56423L24.6729 1.10574C24.6265 0.792572 24.6613 0.389935 24.3993 0.212245C24.2235 0.0930361 23.9828 0 23.7886 0H15.6829C15.3021 0 14.7424 0.35783 14.6762 0.73726C14.6678 0.785579 14.6661 0.834927 14.6589 0.883445L13.9492 5.67408C13.894 6.04692 13.6313 6.35205 13.2873 6.50604C12.4439 6.88359 11.673 7.42345 10.8193 7.89265C10.5647 8.03264 10.26 8.04143 9.99178 7.92966L5.73545 6.15619C5.61358 6.10541 5.48273 6.07832 5.35072 6.08016C4.8506 6.08715 4.49147 6.1485 4.13234 6.68719L0.0794975 13.7797C-0.123145 14.1849 0.0794976 14.5902 0.484782 14.9955L4.34631 17.9376C4.59456 18.1268 4.74261 18.4216 4.7079 18.7317C4.65068 19.243 4.53762 19.8101 4.53762 20.2642C4.53762 20.6648 4.53762 21.1534 4.59561 21.614C4.64767 22.0276 4.52563 22.4644 4.20164 22.7267L0.484782 25.7355C0.0794976 26.1408 0.0794978 26.5461 0.28214 26.9514L4.33498 34.0439C4.5154 34.4047 4.85644 34.4443 5.35811 34.4486C5.48532 34.4497 5.61152 34.4249 5.72964 34.3776L10.0758 32.6392C10.4102 32.5054 10.7887 32.5648 11.0829 32.7724C11.8561 33.3182 12.7195 33.7738 13.5964 34.2158C13.8878 34.3627 14.0903 34.6414 14.1381 34.9642L14.8616 39.8476C14.8688 39.8961 14.871 39.9453 14.8768 39.994C14.9222 40.3734 15.3145 40.7311 15.8856 40.7311H19.13C19.9191 40.7311 20.4065 39.8523 20.0627 39.1421C19.1998 37.3593 18.7226 35.4573 18.7226 33.436Z" />
+                                </svg>
+                                
+                                  
+                            </span>
+                        <span class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                            BulkSMS Service
+                        </span>
+                        </p>
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            We're the company who works with clients over time to make their businesses successful.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".1s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
+                                  </svg>
+                            </span>
+                        <span class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                            Mobile Apps Development
+                        </span>
+                        </p>
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            At Albolink Solutions, we provide a professional, services that are easy to use and offers
+                            personalized customer care.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="mb-[70px] wow fadeInUp" data-wow-delay=".2s">
+                        <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                            <span class="w-[70px] h-[70px] p-2 flex items-center justify-center rounded-md bg-opacity-10 text-primary mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122" />
+                                </svg>                                 
+                            </span>
+                        <span class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+                            Social Media Marketing Services
+                        </span>
+                        </p>
+                        <p class="text-body-color text-base leading-relaxed font-medium pr-[10px]">
+                            Our qualified team will handle your support and development needs with the utmost care. With
+                            our regular reports on the status of your project and our honest, direct communication -
+                            you'll be confident in our abilities to get results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pt-16">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full px-4">
+                    <div class="bg-dark dark:bg-primary dark:bg-opacity-5 rounded-md flex flex-wrap items-center justify-center py-8 px-8 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px] wow fadeInUp"
+                        data-wow-delay=".1s
+              ">
+                        <a href="https://uideck.com" target="_blank" rel="nofollow noreferrer"
+                            class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+                            <img src="images/uideck.svg" alt="uideck" />
+                        </a>
+                        <a href="https://tailgrids.com" target="_blank" rel="nofollow noreferrer"
+                            class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+                            <img src="images/tailgrids.svg" alt="tailgrids" />
+                        </a>
+                        <a href="https://lineicons.com" target="_blank" rel="nofollow noreferrer"
+                            class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+                            <img src="images/lineicons.svg" alt="lineicons" />
+                        </a>
+                        <a href="https://ayroui.com" target="_blank" rel="nofollow noreferrer"
+                            class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+                            <img src="images/ayroui.svg" alt="ayroui" />
+                        </a>
+                        <a href="https://plainadmin.com" target="_blank" rel="nofollow noreferrer"
+                            class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+                            <img src="images/plainadmin.svg" alt="plainadmin" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-[100px] pb-[120px]">
+        <div class="container">
+            <div class="flex flex-wrap items-center mx-[-16px]">
+                <div class="w-full lg:w-1/2 px-4">
+                    <div class="text-center lg:text-left mb-12 lg:mb-0 wow fadeInUp" data-wow-delay=".15s">
+                        <img src="images/about-image-2.svg" alt="about image" class="max-w-full mx-auto lg:ml-0" />
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4">
+                    <div class="max-w-[470px] wow fadeInUp" data-wow-delay=".2s">
+                        <div class="mb-9">
+                            <h3
+                                class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4">
+                                Bug free code</h3>
+                            <p
+                                class="text-body-color text-base sm:text-lg leading-relaxed sm:leading-relaxed font-medium">
+                                Our commitment to quality and customer satisfaction is reflected in the long-term
+                                relationships we have built with our clients over the years.
+                            </p>
+                        </div>
+                        <div class="mb-9">
+                            <h3
+                                class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4">
+                                Premier support</h3>
+                            <p
+                                class="text-body-color text-base sm:text-lg leading-relaxed sm:leading-relaxed font-medium">
+                                We understand that every business has different needs, so that's why we've developed a
+                                flexible approach that allows us to tailor our services and deliver exactly what you
+                                need.
+                            </p>
+                        </div>
+                        <div class="mb-1">
+                            <h3
+                                class="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4">
+                                Regular updates</h3>
+                            <p
+                                class="text-body-color text-base sm:text-lg leading-relaxed sm:leading-relaxed font-medium">
+                                We will always be available for you, our clients, to discuss any concerns or issues with
+                                your project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="relative z-10 pt-[120px] pb-20 bg-primary bg-opacity-[3%]">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full px-4">
+                    <div class="mx-auto max-w-[570px] text-center mb-[100px] wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-[45px] mb-4">What
+                            Our Users Says</h2>
+                        <p class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed">
+                            There are many variations of passages of Lorem Ipsum available but the majority have
+                            suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="shadow-one bg-white dark:bg-[#1D2144] rounded-md p-8 lg:px-5 xl:px-8 mb-10 wow fadeInUp"
+                        data-wow-delay=".1s">
+                        <div class="flex items-center mb-5">
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <p
+                            class="text-base text-body-color dark:text-white leading-relaxed pb-8 border-b border-body-color dark:border-white border-opacity-10 dark:border-opacity-10 mb-8">
+                            “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                            building a community.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="rounded-full overflow-hidden max-w-[50px] w-full h-[50px] mr-4">
+                                <img src="images/auth-01.png" alt="image" />
+                            </div>
+                            <div class="w-full">
+                                <h5
+                                    class="text-lg lg:text-base xl:text-lg text-dark dark:text-white font-semibold mb-1">
+                                    Musharof Chy</h5>
+                                <p class="text-sm text-body-color">Founder @TailGrids</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="shadow-one bg-white dark:bg-[#1D2144] rounded-md p-8 lg:px-5 xl:px-8 mb-10 wow fadeInUp"
+                        data-wow-delay=".15s">
+                        <div class="flex items-center mb-5">
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <p
+                            class="text-base text-body-color dark:text-white leading-relaxed pb-8 border-b border-body-color dark:border-white border-opacity-10 dark:border-opacity-10 mb-8">
+                            “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                            building a community.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="rounded-full overflow-hidden max-w-[50px] w-full h-[50px] mr-4">
+                                <img src="images/auth-02.png" alt="image" />
+                            </div>
+                            <div class="w-full">
+                                <h5
+                                    class="text-lg lg:text-base xl:text-lg text-dark dark:text-white font-semibold mb-1">
+                                    Devid Weilium</h5>
+                                <p class="text-sm text-body-color">Founder @UIdeck</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <div class="shadow-one bg-white dark:bg-[#1D2144] rounded-md p-8 lg:px-5 xl:px-8 mb-10 wow fadeInUp"
+                        data-wow-delay=".2s">
+                        <div class="flex items-center mb-5">
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                            <span class="text-yellow mr-1 block">
+                                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                                    <path
+                                        d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <p
+                            class="text-base text-body-color dark:text-white leading-relaxed pb-8 border-b border-body-color dark:border-white border-opacity-10 dark:border-opacity-10 mb-8">
+                            “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                            building a community.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="rounded-full overflow-hidden max-w-[50px] w-full h-[50px] mr-4">
+                                <img src="images/auth-03.png" alt="image" />
+                            </div>
+                            <div class="w-full">
+                                <h5
+                                    class="text-lg lg:text-base xl:text-lg text-dark dark:text-white font-semibold mb-1">
+                                    Lethium Frenci</h5>
+                                <p class="text-sm text-body-color">Founder @Lineicons</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-5 right-0 z-[-1]">
+            <svg width="238" height="531" viewBox="0 0 238 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect opacity="0.3" x="422.819" y="-70.8145" width="196" height="541.607" rx="2"
+                    transform="rotate(51.2997 422.819 -70.8145)" fill="url(#paint0_linear_83:2)" />
+                <rect opacity="0.3" x="426.568" y="144.886" width="59.7544" height="541.607" rx="2"
+                    transform="rotate(51.2997 426.568 144.886)" fill="url(#paint1_linear_83:2)" />
+                <defs>
+                    <linearGradient id="paint0_linear_83:2" x1="517.152" y1="-251.373" x2="517.152" y2="459.865"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_83:2" x1="455.327" y1="-35.673" x2="455.327" y2="675.565"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="absolute left-0 bottom-5 z-[-1]">
+            <svg width="279" height="106" viewBox="0 0 279 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.5">
+                    <path
+                        d="M-57 12L50.0728 74.8548C55.5501 79.0219 70.8513 85.7589 88.2373 79.3692C109.97 71.3821 116.861 60.9642 156.615 63.7423C178.778 65.291 195.31 69.2985 205.911 62.3533C216.513 55.408 224.994 47.7682 243.016 49.1572C255.835 50.1453 265.278 50.8936 278 45.3373"
+                        stroke="url(#paint0_linear_72:302)" />
+                    <path
+                        d="M-57 1L50.0728 63.8548C55.5501 68.0219 70.8513 74.7589 88.2373 68.3692C109.97 60.3821 116.861 49.9642 156.615 52.7423C178.778 54.291 195.31 58.2985 205.911 51.3533C216.513 44.408 224.994 36.7682 243.016 38.1572C255.835 39.1453 265.278 39.8936 278 34.3373"
+                        stroke="url(#paint1_linear_72:302)" />
+                    <path
+                        d="M-57 23L50.0728 85.8548C55.5501 90.0219 70.8513 96.7589 88.2373 90.3692C109.97 82.3821 116.861 71.9642 156.615 74.7423C178.778 76.291 195.31 80.2985 205.911 73.3533C216.513 66.408 224.994 58.7682 243.016 60.1572C255.835 61.1453 265.278 61.8936 278 56.3373"
+                        stroke="url(#paint2_linear_72:302)" />
+                    <path
+                        d="M-57 35L50.0728 97.8548C55.5501 102.022 70.8513 108.759 88.2373 102.369C109.97 94.3821 116.861 83.9642 156.615 86.7423C178.778 88.291 195.31 92.2985 205.911 85.3533C216.513 78.408 224.994 70.7682 243.016 72.1572C255.835 73.1453 265.278 73.8936 278 68.3373"
+                        stroke="url(#paint3_linear_72:302)" />
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear_72:302" x1="256.267" y1="53.6717" x2="-40.8688" y2="8.15715"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_72:302" x1="256.267" y1="42.6717" x2="-40.8688" y2="-2.84285"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" />
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_72:302" x1="256.267" y1="64.6717" x2="-40.8688" y2="19.1572"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" />
+                    </linearGradient>
+                    <linearGradient id="paint3_linear_72:302" x1="256.267" y1="76.6717" x2="-40.8688" y2="31.1572"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </section>
+
+    <section id="pricing" class="relative z-10 pt-[120px] pb-10">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full px-4">
+                    <div class="mx-auto max-w-[655px] text-center mb-[100px] wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-[45px] mb-4">Simple
+                            and Affordable Pricing
+                        </h2>
+                        <p
+                            class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed max-w-[570px] mx-auto">
+                            Our team of highly skilled software developers and engineers are passionate about technology
+                            and always strive to deliver the best quality service to our clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="bg-primary bg-opacity-5 pt-[120px] pb-20">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full px-4">
+                    <div class="mx-auto max-w-[570px] text-center mb-[100px] wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-[45px] mb-4">Our
+                            Latest Projects</h2>
+                        <p class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed">
+                            We understand that every business has different needs, so that's why we've developed a
+                            flexible approach that allows us to tailor our services and deliver exactly what you need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap mx-[-16px] justify-center">
+                <div class="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 px-4">
+                    <div class="relative bg-white dark:bg-dark shadow-one rounded-md overflow-hidden mb-10 wow fadeInUp"
+                        data-wow-delay=".1s">
+                        <a href="javascript:void(0)" class="w-full block relative">
+                            <span
+                                class="absolute top-6 right-6 bg-primary rounded-full inline-flex items-center justify-center py-2 px-4 font-semibold text-sm text-white">
+                                Computer
+                            </span>
+                            <img src="images/blog-01.jpg" alt="image" class="w-full" />
+                        </a>
+                        <div class="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+                            <h3>
+                                <a href="javascript:void(0)"
+                                    class="font-bold text-black dark:text-white text-xl sm:text-2xl block mb-4 hover:text-primary dark:hover:text-primary">
+                                    Best UI components for modern websites
+                                </a>
+                            </h3>
+                            <p
+                                class="text-base text-body-color font-medium pb-6 mb-6 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque,
+                                laoreet dolor.
+                            </p>
+                            <div class="flex items-center">
+                                <div
+                                    class="flex items-center pr-5 mr-5 xl:pr-3 2xl:pr-5 xl:mr-3 2xl:mr-5 border-r border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                    <div class="max-w-[40px] w-full h-[40px] rounded-full overflow-hidden mr-4">
+                                        <img src="images/author-01.png" alt="author" class="w-full" />
+                                    </div>
+                                    <div class="w-full">
+                                        <h4 class="text-sm font-medium text-dark dark:text-white mb-1">
+                                            By
+                                            <a href="javascript:void(0)"
+                                                class="text-dark dark:text-white hover:text-primary dark:hover:text-primary">
+                                                Samuyl Joshi </a>
+                                        </h4>
+                                        <p class="text-xs text-body-color">Graphic Designer</p>
+                                    </div>
+                                </div>
+                                <div class="inline-block">
+                                    <h4 class="text-sm font-medium text-dark dark:text-white mb-1">Date</h4>
+                                    <p class="text-xs text-body-color">15 Dec, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 px-4">
+                    <div class="relative bg-white dark:bg-dark shadow-one rounded-md overflow-hidden mb-10 wow fadeInUp"
+                        data-wow-delay=".15s">
+                        <a href="javascript:void(0)" class="w-full block relative">
+                            <span
+                                class="absolute top-6 right-6 bg-primary rounded-full inline-flex items-center justify-center py-2 px-4 font-semibold text-sm text-white">
+                                Design
+                            </span>
+                            <img src="images/blog-02.jpg" alt="image" class="w-full" />
+                        </a>
+                        <div class="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+                            <h3>
+                                <a href="javascript:void(0)"
+                                    class="font-bold text-black dark:text-white text-xl sm:text-2xl block mb-4 hover:text-primary dark:hover:text-primary">
+                                    9 simple ways to improve your design skills
+                                </a>
+                            </h3>
+                            <p
+                                class="text-base text-body-color font-medium pb-6 mb-6 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque,
+                                laoreet dolor.
+                            </p>
+                            <div class="flex items-center">
+                                <div
+                                    class="flex items-center pr-5 mr-5 xl:pr-3 2xl:pr-5 xl:mr-3 2xl:mr-5 border-r border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                    <div class="max-w-[40px] w-full h-[40px] rounded-full overflow-hidden mr-4">
+                                        <img src="images/author-02.png" alt="author" class="w-full" />
+                                    </div>
+                                    <div class="w-full">
+                                        <h4 class="text-sm font-medium text-dark dark:text-white mb-1">
+                                            By
+                                            <a href="javascript:void(0)"
+                                                class="text-dark dark:text-white hover:text-primary dark:hover:text-primary">
+                                                Musharof Chy </a>
+                                        </h4>
+                                        <p class="text-xs text-body-color">Content Writer</p>
+                                    </div>
+                                </div>
+                                <div class="inline-block">
+                                    <h4 class="text-sm font-medium text-dark dark:text-white mb-1">Date</h4>
+                                    <p class="text-xs text-body-color">15 Dec, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 px-4">
+                    <div class="relative bg-white dark:bg-dark shadow-one rounded-md overflow-hidden mb-10 wow fadeInUp"
+                        data-wow-delay=".2s">
+                        <a href="javascript:void(0)" class="w-full block relative">
+                            <span
+                                class="absolute top-6 right-6 bg-primary rounded-full inline-flex items-center justify-center py-2 px-4 font-semibold text-sm text-white">
+                                Computer
+                            </span>
+                            <img src="images/blog-03.jpg" alt="image" class="w-full" />
+                        </a>
+                        <div class="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+                            <h3>
+                                <a href="javascript:void(0)"
+                                    class="font-bold text-black dark:text-white text-xl sm:text-2xl block mb-4 hover:text-primary dark:hover:text-primary">
+                                    Tips to quickly improve your coding speed.
+                                </a>
+                            </h3>
+                            <p
+                                class="text-base text-body-color font-medium pb-6 mb-6 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque,
+                                laoreet dolor.
+                            </p>
+                            <div class="flex items-center">
+                                <div
+                                    class="flex items-center pr-5 mr-5 xl:pr-3 2xl:pr-5 xl:mr-3 2xl:mr-5 border-r border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                                    <div class="max-w-[40px] w-full h-[40px] rounded-full overflow-hidden mr-4">
+                                        <img src="images/author-03.png" alt="author" class="w-full" />
+                                    </div>
+                                    <div class="w-full">
+                                        <h4 class="text-sm font-medium text-dark dark:text-white mb-1">
+                                            By
+                                            <a href="javascript:void(0)"
+                                                class="text-dark dark:text-white hover:text-primary dark:hover:text-primary">
+                                                Lethium Deo </a>
+                                        </h4>
+                                        <p class="text-xs text-body-color">Graphic Designer</p>
+                                    </div>
+                                </div>
+                                <div class="inline-block">
+                                    <h4 class="text-sm font-medium text-dark dark:text-white mb-1">Date</h4>
+                                    <p class="text-xs text-body-color">15 Dec, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="pt-[120px] pb-20 overflow-hidden">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                
+                <div class="w-full lg:w-5/12 px-4">
+                    <div class="relative z-10 rounded-md bg-primary bg-opacity-[3%] dark:bg-opacity-10 p-8 sm:p-11 lg:p-8 xl:p-11 mb-5 wow fadeInUp" data-wow-delay=".2s">
+                        <h3 class="text-black py-2 mb-4 dark:text-white font-bold text-2xl leading-tight mb-4">
+                            Contact Us
+                        </h3>
+                            <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                <span
+                                    class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                    <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                        <path
+                                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                    </svg>
+                                </span>
+                                +255786550809
+                            </p>
+                            <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                <span
+                                    class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                    <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                        <path
+                                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                    </svg>
+                                </span>
+                                +255744158016
+                            </p>
+                            <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                <span
+                                    class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                    <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                        <path
+                                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                    </svg>
+                                </span>
+                                contact@albolink.com
+                            </p>
+                        
+                            <p class="flex items-center text-body-color text-lg font-medium mb-5">
+                                <span
+                                    class="w-[30px] h-[30px] flex items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
+                                    <svg width="16" height="13" viewBox="0 0 16 13" class="fill-current">
+                                        <path
+                                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+                                    </svg>
+                                </span>
+                                Mikochecni, Dar es Salaam
+                            </p>
+                            <div class="absolute top-0 left-0 z-[-1]">
+                                <svg width="370" height="596" viewBox="0 0 370 596" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_88:141" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                        width="370" height="596">
+                                        <rect width="370" height="596" rx="2" fill="#1D2144" />
+                                    </mask>
+                                    <g mask="url(#mask0_88:141)">
+                                        <path opacity="0.15"
+                                            d="M15.4076 50.9571L54.1541 99.0711L71.4489 35.1605L15.4076 50.9571Z"
+                                            fill="url(#paint0_linear_88:141)" />
+                                        <path opacity="0.15" d="M20.7137 501.422L44.6431 474.241L6 470.624L20.7137 501.422Z"
+                                            fill="url(#paint1_linear_88:141)" />
+                                        <path opacity="0.1"
+                                            d="M331.676 198.309C344.398 204.636 359.168 194.704 358.107 180.536C357.12 167.363 342.941 159.531 331.265 165.71C318.077 172.69 318.317 191.664 331.676 198.309Z"
+                                            fill="url(#paint2_linear_88:141)" />
+                                        <g opacity="0.3">
+                                            <path
+                                                d="M209 89.9999C216 77.3332 235.7 50.7999 258.5 45.9999C287 39.9999 303 41.9999 314 30.4999C325 18.9999 334 -3.50014 357 -3.50014C380 -3.50014 395 4.99986 408.5 -8.50014C422 -22.0001 418.5 -46.0001 452 -37.5001C478.8 -30.7001 515.167 -45 530 -53"
+                                                stroke="url(#paint3_linear_88:141)" />
+                                            <path
+                                                d="M251 64.9999C258 52.3332 277.7 25.7999 300.5 20.9999C329 14.9999 345 16.9999 356 5.49986C367 -6.00014 376 -28.5001 399 -28.5001C422 -28.5001 437 -20.0001 450.5 -33.5001C464 -47.0001 460.5 -71.0001 494 -62.5001C520.8 -55.7001 557.167 -70 572 -78"
+                                                stroke="url(#paint4_linear_88:141)" />
+                                            <path
+                                                d="M212 73.9999C219 61.3332 238.7 34.7999 261.5 29.9999C290 23.9999 306 25.9999 317 14.4999C328 2.99986 337 -19.5001 360 -19.5001C383 -19.5001 398 -11.0001 411.5 -24.5001C425 -38.0001 421.5 -62.0001 455 -53.5001C481.8 -46.7001 518.167 -61 533 -69"
+                                                stroke="url(#paint5_linear_88:141)" />
+                                            <path
+                                                d="M249 40.9999C256 28.3332 275.7 1.79986 298.5 -3.00014C327 -9.00014 343 -7.00014 354 -18.5001C365 -30.0001 374 -52.5001 397 -52.5001C420 -52.5001 435 -44.0001 448.5 -57.5001C462 -71.0001 458.5 -95.0001 492 -86.5001C518.8 -79.7001 555.167 -94 570 -102"
+                                                stroke="url(#paint6_linear_88:141)" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_88:141" x1="13.4497" y1="63.5059" x2="81.144"
+                                            y2="41.5072" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_88:141" x1="28.1579" y1="501.301" x2="8.69936"
+                                            y2="464.391" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_88:141" x1="338" y1="167" x2="349.488"
+                                            y2="200.004" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_88:141" x1="369.5" y1="-53" x2="369.5"
+                                            y2="89.9999" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint4_linear_88:141" x1="411.5" y1="-78" x2="411.5"
+                                            y2="64.9999" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint5_linear_88:141" x1="372.5" y1="-69" x2="372.5"
+                                            y2="73.9999" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint6_linear_88:141" x1="409.5" y1="-102" x2="409.5"
+                                            y2="40.9999" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <p class="font-medium mt-4 text-base text-body-color leading-relaxed pb-11 mb-11 border-b border-body-color border-opacity-25 dark:border-white dark:border-opacity-25">
+                                We specialize in software development services that include web application development, mobile app development, custom software development, and e-commerce solutions.
+                            </p>
+                        
+                    </div>
+                </div>
+                <div class="w-full lg:w-7/12 px-4">
+                    <div class="bg-primary bg-opacity-[3%] dark:bg-dark rounded-md p-11 mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp"
+                        data-wow-delay=".15s">
+                        <h2
+                            class="font-bold text-black dark:text-white text-2xl sm:text-3xl lg:text-2xl xl:text-3xl mb-3">
+                            Need Help? Send a Message</h2>
+                        
+                        <form>
+                            <div class="flex flex-wrap mx-[-16px]">
+                                <div class="w-full md:w-1/2 px-4">
+                                    <div class="mb-4">
+                                        <label for="name"
+                                            class="block text-sm font-medium text-dark dark:text-white mb-3"> Your Name
+                                        </label>
+                                        <input type="text" placeholder="Enter your name" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-1/2 px-4">
+                                    <div class="mb-4">
+                                        <label for="email"
+                                            class="block text-sm font-medium text-dark dark:text-white mb-3"> Your Phone
+                                        </label>
+                                        <input type="tel" placeholder="Enter your phone" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                                    </div>
+                                </div>
+                                <div class="w-full px-4">
+                                    <div class="mb-4">
+                                        <label for="message"
+                                            class="block text-sm font-medium text-dark dark:text-white mb-3"> Your
+                                            Email  </label>
+                                            <input type="email" placeholder="Enter your email" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                                        </div>
+                                </div>
+                                <div class="w-full px-4">
+                                    <div class="mb-4">
+                                        <label for="message"
+                                            class="block text-sm font-medium text-dark dark:text-white mb-3"> Your
+                                            Message </label>
+                                        <textarea name="message" rows="5" placeholder="Enter your Message"
+                                            class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary resize-none"></textarea>
+                                    </div>
+                                </div>
+                                <div class="w-full px-4">
+                                    <a href="javascript:void(0)"
+                                        class="text-base font-medium text-white bg-primary py-4 px-9 hover:bg-opacity-80 hover:shadow-signUp rounded-md transition duration-300 ease-in-out">
+                                        Submit Message
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="relative z-10 bg-primary bg-opacity-5 pt-[100px] wow fadeInUp" data-wow-delay=".1s">
+        <div class="container">
+            <div class="flex flex-wrap mx-[-16px]">
+                <div class="w-full md:w-1/2 lg:w-4/12 xl:w-5/12 px-4">
+                    <div class="mb-16 max-w-[360px]">
+                        <a href="index.html" class="inline-block mb-8">
+                            <img src="images/logo-2.svg" alt="logo" class="w-full dark:hidden" />
+                            <img src="images/logo.svg" alt="logo" class="w-full hidden dark:block" />
+                        </a>
+                        <p class="text-body-color text-base font-medium leading-relaxed mb-9">Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Integer lobortis.</p>
+                        <div class="flex items-center">
+                            <a href="javascript:void(0)" aria-label="social-link"
+                                class="text-[#CED3F6] hover:text-primary mr-6">
+                                <svg width="9" height="18" viewBox="0 0 9 18" class="fill-current">
+                                    <path
+                                        d="M8.13643 7H6.78036H6.29605V6.43548V4.68548V4.12097H6.78036H7.79741C8.06378 4.12097 8.28172 3.89516 8.28172 3.55645V0.564516C8.28172 0.254032 8.088 0 7.79741 0H6.02968C4.11665 0 2.78479 1.58064 2.78479 3.92339V6.37903V6.94355H2.30048H0.65382C0.314802 6.94355 0 7.25403 0 7.70564V9.7379C0 10.1331 0.266371 10.5 0.65382 10.5H2.25205H2.73636V11.0645V16.7379C2.73636 17.1331 3.00273 17.5 3.39018 17.5H5.66644C5.81174 17.5 5.93281 17.4153 6.02968 17.3024C6.12654 17.1895 6.19919 16.9919 6.19919 16.8226V11.0927V10.5282H6.70771H7.79741C8.11222 10.5282 8.35437 10.3024 8.4028 9.96371V9.93548V9.90726L8.74182 7.95968C8.76604 7.7621 8.74182 7.53629 8.59653 7.31048C8.54809 7.16935 8.33016 7.02823 8.13643 7Z" />
+                                </svg>
+                            </a>
+                            <a href="javascript:void(0)" aria-label="social-link"
+                                class="text-[#CED3F6] hover:text-primary mr-6">
+                                <svg width="19" height="14" viewBox="0 0 19 14" class="fill-current">
+                                    <path
+                                        d="M16.3024 2.26027L17.375 1.0274C17.6855 0.693493 17.7702 0.436644 17.7984 0.308219C16.9516 0.770548 16.1613 0.924658 15.6532 0.924658H15.4556L15.3427 0.821918C14.6653 0.282534 13.8185 0 12.9153 0C10.9395 0 9.3871 1.48973 9.3871 3.21062C9.3871 3.31336 9.3871 3.46747 9.41532 3.57021L9.5 4.0839L8.90726 4.05822C5.29435 3.95548 2.33065 1.13014 1.85081 0.642123C1.06048 1.92637 1.5121 3.15925 1.99194 3.92979L2.95161 5.36815L1.42742 4.5976C1.45565 5.67637 1.90726 6.52397 2.78226 7.14041L3.54435 7.65411L2.78226 7.93665C3.2621 9.24658 4.33468 9.78596 5.125 9.99144L6.16935 10.2483L5.18145 10.8647C3.60081 11.8921 1.625 11.8151 0.75 11.738C2.52823 12.8682 4.64516 13.125 6.1129 13.125C7.21371 13.125 8.03226 13.0223 8.22984 12.9452C16.1331 11.25 16.5 4.82877 16.5 3.54452V3.36473L16.6694 3.26199C17.629 2.44007 18.0242 2.00342 18.25 1.74658C18.1653 1.77226 18.0524 1.82363 17.9395 1.84932L16.3024 2.26027Z" />
+                                </svg>
+                            </a>
+                            <a href="javascript:void(0)" aria-label="social-link"
+                                class="text-[#CED3F6] hover:text-primary mr-6">
+                                <svg width="18" height="14" viewBox="0 0 18 14" class="fill-current">
+                                    <path
+                                        d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
+                                </svg>
+                            </a>
+                            <a href="javascript:void(0)" aria-label="social-link"
+                                class="text-[#CED3F6] hover:text-primary mr-6">
+                                <svg width="17" height="16" viewBox="0 0 17 16" class="fill-current">
+                                    <path
+                                        d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 px-4">
+                    <div class="mb-16">
+                        <h2 class="font-bold text-black dark:text-white text-xl mb-10">Useful Links</h2>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Blog </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Pricing </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    About </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 px-4">
+                    <div class="mb-16">
+                        <h2 class="font-bold text-black dark:text-white text-xl mb-10">Terms</h2>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    TOS </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Privacy Policy </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Refund Policy </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
+                    <div class="mb-16">
+                        <h2 class="font-bold text-black dark:text-white text-xl mb-10">Support & Help</h2>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Open Support Ticket </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    Terms of Use </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"
+                                    class="text-base font-medium inline-block text-body-color mb-4 hover:text-primary">
+                                    About </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <div class="absolute right-0 top-14 z-[-1]">
+            <svg width="55" height="99" viewBox="0 0 55 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
+                <mask id="mask0_94:899" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="99"
+                    height="99">
+                    <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#4A6CF7" />
+                </mask>
+                <g mask="url(#mask0_94:899)">
+                    <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="url(#paint0_radial_94:899)" />
+                    <g opacity="0.8" filter="url(#filter0_f_94:899)">
+                        <circle cx="53.8676" cy="26.2061" r="20.3824" fill="white" />
+                    </g>
+                </g>
+                <defs>
+                    <filter id="filter0_f_94:899" x="12.4852" y="-15.1763" width="82.7646" height="82.7646"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feGaussianBlur stdDeviation="10.5" result="effect1_foregroundBlur_94:899" />
+                    </filter>
+                    <radialGradient id="paint0_radial_94:899" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(49.5 49.5) rotate(90) scale(53.1397)">
+                        <stop stop-opacity="0.47" />
+                        <stop offset="1" stop-opacity="0" />
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="absolute left-0 bottom-24 z-[-1]">
+            <svg width="79" height="94" viewBox="0 0 79 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect opacity="0.3" x="-41" y="26.9426" width="66.6675" height="66.6675"
+                    transform="rotate(-22.9007 -41 26.9426)" fill="url(#paint0_linear_94:889)" />
+                <rect x="-41" y="26.9426" width="66.6675" height="66.6675" transform="rotate(-22.9007 -41 26.9426)"
+                    stroke="url(#paint1_linear_94:889)" stroke-width="0.7" />
+                <path opacity="0.3" d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L77.1885 68.2073L50.5215 7.42229Z"
+                    fill="url(#paint2_linear_94:889)" />
+                <path d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L76.7963 68.2073L50.5215 7.42229Z"
+                    stroke="url(#paint3_linear_94:889)" stroke-width="0.7" />
+                <path opacity="0.3"
+                    d="M17.9721 93.3057L-14.9695 88.2076L46.2077 62.325L77.1885 68.2074L17.9721 93.3057Z"
+                    fill="url(#paint4_linear_94:889)" />
+                <path d="M17.972 93.3057L-14.1852 88.2076L46.2077 62.325L77.1884 68.2074L17.972 93.3057Z"
+                    stroke="url(#paint5_linear_94:889)" stroke-width="0.7" />
+                <defs>
+                    <linearGradient id="paint0_linear_94:889" x1="-41" y1="21.8445" x2="36.9671" y2="59.8878"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0.62" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_94:889" x1="25.6675" y1="95.9631" x2="-42.9608" y2="20.668"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51" />
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_94:889" x1="20.325" y1="-3.98039" x2="90.6248" y2="25.1062"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0.62" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="paint3_linear_94:889" x1="18.3642" y1="-1.59742" x2="113.9" y2="80.6826"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51" />
+                    </linearGradient>
+                    <linearGradient id="paint4_linear_94:889" x1="61.1098" y1="62.3249" x2="-8.82468" y2="58.2156"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0.62" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="paint5_linear_94:889" x1="65.4236" y1="65.0701" x2="24.0178" y2="41.6598"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4A6CF7" stop-opacity="0" />
+                        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </footer>
+
+
+    <a href="javascript:void(0)"
+        class="hidden items-center justify-center bg-primary text-white w-10 h-10 rounded-md fixed bottom-8 right-8 left-auto z-[999] hover:shadow-signUp hover:bg-opacity-80 transition duration-300 ease-in-out back-to-top shadow-md">
+        <span class="w-3 h-3 border-t border-l border-white rotate-45 mt-[6px]"></span>
+    </a>
+
+
+
+    <script>
+
+        // ==== for menu scroll
+        const pageLink = document.querySelectorAll('.menu-scroll');
+
+        pageLink.forEach((elem) => {
+            elem.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector(elem.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    offsetTop: 1 - 60,
+                });
+            });
+        });
+
+    </script>
+    <script defer src="bundle.js"></script>
+    <script>(function () { var js = "window['__CF$cv$params']={r:'7bfd8853ac350562',m:'w9L05IjYYT72hWkRHF1iSUUO4ttya5raQJTjfQhQWRY-1682834092-0-ARq1ojbNmSx5Nxtz4iTplyzyxhT2VdXCywORiS67D5cm',u:'/cdn-cgi/challenge-platform/h/g'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.nonce = ''; _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+        integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+        data-cf-beacon='{"rayId":"7bfd8853ac350562","version":"2023.3.0","r":1,"token":"9a6015d415bb4773a0bff22543062d3b","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
